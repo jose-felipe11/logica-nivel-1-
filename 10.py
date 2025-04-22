@@ -1,0 +1,13 @@
+#10 - problema: escreva um software informe a média aritimética de um aluno que cursou 4 bimestres
+print("calculadora media da nota ")
+print("nota do primeiro bimestre ")
+b1=float(input())
+print("nota do segundo  bimestre")
+b2=float(input())
+print("nota do treceiro bimestre")
+b3=float(input())
+print("nota do quarto bimestre")
+b4=float(input())
+print("media anual do aluno")
+media=(b1+b2+b3+b4 )
+print(media / 4 )
