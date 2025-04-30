@@ -1,0 +1,18 @@
+#21) Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+
+print("digite tres numero")
+print("digite o primeiro numero")
+n1=int(input())
+print("digite o segundo numero")
+n2=int(input())
+print("digite o terceiro numero")
+n3=int(input())
+n1m=n1<n2 and n2<n3
+n2m=n2<n3 and n3<n1
+
+if n1m:
+    print("soma dos dois maiores " ,n3,n2,n1)
+elif n2m:
+    print("soma dos dois maiores", n1,n3,n2)
+else:
+    print("soma dos dois maiores" ,n2,n1,n3)
